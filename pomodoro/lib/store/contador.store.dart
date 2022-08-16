@@ -13,3 +13,5 @@ abstract class _ContadorStore with Store {
     contador++;
   }
 }
+
+// após isso rodamos o comando flutter pub run build_runner watch para gerarmos o arquivo contador.store.g.dart
